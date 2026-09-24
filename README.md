@@ -11,6 +11,13 @@ As development on Home Assistant's built-in OpenAI Conversation Agent has progre
 * Responses are not streamed to the chat log.
 * The project currently continues to use the `max_tokens` parameter as opposed to the newer `max_completion_tokens` parameter for backwards compatibility.
 
+
+## Community
+
+[![Discord](https://img.shields.io/badge/Discord-join%20community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/qaHPTTKHae)
+
+Join the DonTranQuiL Discord for support and updates.
+
 ## Note about changing the model
 
 If you're not using OpenAI models, then you need to change the default values that this integration will send to the API. To make that happen, click on "configure" on this integration and de-select the "recommended" toggle and click on "send". A placeholder to change the default model will appear and you'll be able to change it to any model you want.
